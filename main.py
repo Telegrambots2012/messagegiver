@@ -15,7 +15,7 @@ from telegram.constants import ParseMode
 from telegram.ext import (
     Application, CommandHandler, MessageHandler, ContextTypes, filters
 )
-from telegram.error import RetryAfter, TimeLimitExceeded, NetworkError, BadRequest
+from telegram.error import RetryAfter, NetworkError, BadRequest
 import time
 from concurrent.futures import ThreadPoolExecutor
 import weakref
